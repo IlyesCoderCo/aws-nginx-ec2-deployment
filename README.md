@@ -19,13 +19,13 @@ This project documents the deployment of an Nginx web server on an AWS EC2 insta
 7. Confirmed the deployment by accessing the domain in a browser and seeing the default Nginx welcome page
 
 ## Commands Used
-\`\`\`bash
+```bash
 sudo yum update -y
 sudo yum install nginx -y
 sudo systemctl start nginx
 sudo systemctl enable nginx
 sudo systemctl status nginx
-\`\`\`
+```
 
 ## Result
 ![Nginx running and serving the custom domain](docs/screenshots/nginx-status.jpeg)
