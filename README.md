@@ -1,3 +1,4 @@
+# AWS Nginx EC2 Deployment
 ## Overview
 This project documents the deployment of an Nginx web server on an AWS EC2 instance, configured with a custom domain via Cloudflare DNS. The goal was to gain hands-on experience with cloud infrastructure, Linux server administration, and DNS configuration as part of my DevOps learning journey.
 
